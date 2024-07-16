@@ -9,5 +9,5 @@ DEFAULT_MODEL_FC = Sequential(
     Linear(DEFAULT_MODEL.fc.in_features, 128),
     ReLU(),
     Dropout(0.7),
-    Linear(128, 2),
+    Linear(128, 2)
 )
